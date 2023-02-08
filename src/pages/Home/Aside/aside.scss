@@ -1,0 +1,150 @@
+.aside{
+  width: 200px;
+  padding: 52px 20px 0;
+  background: blanchedalmond;
+  height: 100vh;
+  position: relative;
+  &__leave{
+    position: absolute;
+    top: 20px;
+    left: 20px;
+  }
+  &__all{
+    display: flex;
+    column-gap: 5px;
+    align-items: center;
+    padding: 12px 9px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-bottom: 38px;
+    &.active{
+      background: white;
+
+
+    }
+    &:hover{
+      background: white;
+    }
+  }
+  &__menu{
+    display: flex;
+    flex-direction: column;
+  }
+  &__item{
+    display: flex;
+    column-gap: 5px;
+    align-items: center;
+    padding: 12px 9px;
+    border-radius: 5px;
+    cursor: pointer;
+    position: relative;
+    &-del{
+      display: none;
+      position: absolute;
+      top: 50%;
+      right: 13px;
+      transform: translateY(-50%);
+      &:hover{
+        svg{
+          fill:black;
+        }
+      }
+    }
+    &.active{
+      background: white;
+
+
+    }
+
+    &:hover{
+      background: white;
+      .aside__item-del{
+        display: inline;
+      }
+    }
+  }
+  &__color{
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+  }
+  &__create{
+    display: flex;
+    column-gap: 5px;
+    align-items: center;
+    padding: 12px 9px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 38px;
+    position: relative;
+
+    &:hover {
+      background: white;
+    }
+  }
+  &__text{
+    font-family: 'Lato',sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 17px;
+    padding-left: 10px;
+    letter-spacing: 0.15px;
+
+    color: #767676;
+  }
+  &__popup{
+    position: absolute;
+    top: 100%;
+    width: 235px;
+    padding: 18px;
+    background: #FFFFFF;
+    box-shadow: 0 6px 10px rgba(0, 0, 0, 0.05);
+    border-radius: 10px;
+    &-close{
+      position: absolute;
+      top: 0;
+      right: 0;
+      transform:translate(50%,-50%) ;
+    }
+
+  }
+  &__field{
+    border: 1px solid #EFEFEF ;
+    border-radius: 4px;
+    height: 32px;
+    width: 100%;
+    padding: 0 11px;
+  }
+  &__colors{
+    margin: 13px 0;
+    display: flex;
+    column-gap: 5px;
+  }
+  &__col{
+    width: 20px;
+    height: 20px;
+    cursor: pointer;
+    border-radius: 50%;
+  }
+  &__add{
+    cursor: pointer;
+    width: 100%;
+    background: #4DD599;
+    border-radius: 4px;
+    padding: 10px 0;
+    font-family: 'Lato',sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 17px;
+    border: none;
+    letter-spacing: 0.15px;
+
+    color: #FFFFFF;
+
+
+  }
+
+
+}

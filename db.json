@@ -1,0 +1,18 @@
+{
+  "users": [
+    {
+      "email": "sss@nail.ru",
+      "password": "$2a$10$kXALo2Bx7doiGwt0KGZiJeCWzn/XVfE5pPv1deJ/dRyVy0E9/rtye",
+      "login": "sssss",
+      "categories": [],
+      "id": 1
+    },
+    {
+      "email": "asdsa@mail.ru",
+      "password": "$2a$10$n5xGaaNQam2MVmxaz/BiBe7A7j.su1AUT4g1YZUbBI5nbeAdp6cdC",
+      "login": "asa",
+      "categories": [],
+      "id": 2
+    }
+  ]
+}

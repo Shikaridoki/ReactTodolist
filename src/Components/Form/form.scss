@@ -1,0 +1,45 @@
+.form{
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  max-width: 400px;
+  padding: 40px 30px;
+  background: white;
+  border-radius: 15px;
+  align-items: center;
+  &__title{
+    margin-bottom: 40px;
+  }
+  &__label{
+    margin-bottom: 20px ;
+    width: 100%;
+  }
+  &__field{
+    width: 100%;
+    margin-bottom: 5px;
+    height: 40px;
+    padding: 0 15px;
+  }
+  &__btn{
+    padding: 10px 12px;
+    cursor: pointer;
+    color: white;
+    background: darkslateblue;
+    border: none;
+    border-radius: 5px;
+
+  }
+  &__text{
+    margin-top: 25px;
+
+  }
+  &__link{
+    padding-left: 5px;
+    color: red;
+    &:hover{
+      text-decoration: underline darkslateblue;
+      text-underline-offset: 7px;
+    }
+  }
+
+}
